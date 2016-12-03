@@ -1,0 +1,58 @@
+  
+/* Page Styles
+================================ */
+
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	font: normal 1em/1.5;
+    font-family: helvetica;
+	color: #222;
+	background-color: #5a5b5d;
+}
+h2,h1 {
+    color: white;
+}
+
+p {
+    color: #5a5b5d;
+}
+
+/* Main Layout Styles
+================================ */
+
+.main-header {
+    width: 100%;
+    display: block;
+} 
+
+.AboutMe {
+    background-color: #01cde4;
+    margin-top: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.main-footer {
+	text-align: center;
+	margin-top: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+ 	background-color: #01cde4;
+}
+
+@media (min-width: 768px) { 
+
+
+	/* Imagery
+	================================ */
+
+	.feat-img {
+		width: 100%;
+		float: left;
+		margin: 5px 20px 10px 0;
+	}
+
+}
